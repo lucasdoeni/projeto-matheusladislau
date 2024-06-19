@@ -16,7 +16,7 @@
 }
 
 .header {
-    height: 650px;
+    height: 750px;
     width: 100%;
     background: url(../img/img2.png) no-repeat bottom;
     background-size: cover;
@@ -73,36 +73,48 @@
 .secao-2 {
     margin-top: 180px;
     height: 800px;
-    width: 50%;
-    float: right;
+    width: 100%;
+    background-color: rgb(243, 239, 239);
 }
 
 .selo img {
     height: 180px;
-    width: 180px;
-    margin-top: -90px; 
+    width: 180px; 
+    margin-top: -85px;
+    margin-left: 45%;
 }
 
 .escritorio {
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
+    margin-top: 90px;
 }
 
 .escritorio h1 {
-    margin-top: 50px;
     font-family: poppins;
     font-size: 35px;
-    margin-left: 20px;
+    margin-left: 40%;
+    text-transform: uppercase;
+    margin-right: 1090px;
+    white-space: nowrap;
+    border-bottom: 5px solid #022135;
 }
 
 .escritorio p {
     font-family: poppins;
     font-size: 20px;
-    width: 80%;
+    margin-left: 40%;
+    margin-right: 280px;
     text-align: justify;
-    margin-left: 20px;
-    margin-bottom: 30px;
 }
+
+.escritorio .matheus1 img {
+    width: 40vh;
+    margin-left: 280px;
+    margin-top: -10px;
+    position: absolute;
+    box-shadow: 30px 30px 0px 10px #022135;
+    border-radius: 10px 10px 0px 10px;
+}
+
 
 /* Fim Seçao 2 */
 
