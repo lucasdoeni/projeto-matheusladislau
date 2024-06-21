@@ -49,6 +49,11 @@
     margin-top: -45px;
 }
 
+.menu a:hover {
+    color: #deaf77;
+    transition: 0.5s;
+}
+
 .secao-1 .defesa {
     margin-left: 280px;
     padding: 0px 6px 0px 6px;
@@ -337,6 +342,7 @@
 
 .ms4 {
     margin-top: 120px;
+    margin-bottom: 280px;
 }
 
 .ms4 i {
