@@ -6,7 +6,8 @@
 }
 
 .cor1 {color: #022135;}
-.cor2 {color: #8a8158;}
+.cor2 {color: #deaf77;}
+.cor3 {color: #305f7b;}
 
 /* Seçao 1 */
 
@@ -49,29 +50,27 @@
 }
 
 .secao-1 .defesa {
-    font-family: poppins;
-    color: white;
-    font-size: 15px;
-    margin-top: -270px;
-    margin-left: 415px;
-    text-align: center;
-    text-transform: uppercase;
-    margin-right: 1000px;
-    background-color: #022135;
-    border-radius: 30px 0px 30px 0px;
-    padding: 10px 45px 10px 45px;
-    box-shadow: 5px 5px 0px 0px rgba(255, 255, 255, 0.486);
+    margin-left: 280px;
+    padding: 0px 6px 0px 6px;
 }
 
-
-
+.defesa {
+    font-family: poppins;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #022135;
+    border-radius: 30px 0px 30px 0px;
+    box-shadow: 5px 5px 0px 0px rgba(255, 255, 255, 0.486);
+    margin-top: -400px;
+    }
 
 /* Fim Seçao 1 */
 
 /* Inicio Seçao 2 */
 
 .secao-2 {
-    margin-top: 180px;
     height: 800px;
     width: 100%;
     background-color: rgb(243, 239, 239);
@@ -115,6 +114,90 @@
     border-radius: 10px 10px 0px 10px;
 }
 
-
 /* Fim Seçao 2 */
+
+/* Inicio Seçao 3 */
+
+.secao-3-h1 {
+    background-color: #022135;
+    color: white;
+    font-family: poppins;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    padding: 50px 10px 80px 10px;
+    text-transform: uppercase;
+}
+
+.secao-3 {
+    background-color: #022135;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px; /* Espaçamento entre os blocos */
+    padding: 0px; /* Espaçamento interno do container */
+    height: 1200px;
+        margin-bottom: 50px;
+}
+
+
+/* Estilização dos blocos individuais */
+.bloco1, .bloco2, .bloco3, .bloco4 {
+    background-color: #305f7b; /* Cor de fundo dos blocos */
+    padding: 30px 10px 30px 10px; /* Espaçamento interno dos blocos */
+    padding: 20px;
+    height: 500px;
+    width: 480px;
+    box-shadow: 12px 12px 0px 1px #deb077b0;
+}
+
+.bloco1, .bloco3 {
+    margin-left: 380px;
+    margin-right: 10px;
+    padding: 20px;
+}
+
+.bloco2, .bloco4 {
+    margin-right: 380px;
+    margin-left: 20px;
+}
+
+.secao-3 h3 {
+    margin-bottom: 20px; /* Espaçamento abaixo dos títulos */
+    font-size: 1.5em; /* Tamanho da fonte dos títulos */
+    color: #333; /* Cor da fonte dos títulos */
+    font-family: poppins;
+    text-transform: uppercase;
+    color: white;
+}
+
+.secao-3 ul {
+    list-style: none; /* Remove as bolinhas da lista */
+    
+}
+
+.secao-3 ul li {
+    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+    font-size: 1em; /* Tamanho da fonte dos itens da lista */
+    color: #555; /* Cor da fonte dos itens da lista */
+    font-family: poppins;
+    text-indent: 20px;
+    color: white;
+    
+}
+
+.secao-3 p {
+    margin-bottom: 5px; /* Espaçamento abaixo dos parágrafos */
+    font-size: 1em; /* Tamanho da fonte dos parágrafos */
+    color: #555; /* Cor da fonte dos parágrafos */
+    color: white;
+    font-family: poppins;
+}
+
+.fa-solid {
+    color: #deaf77;
+    font-size: 35px;
+    padding: 20px 0px 20px 0px;
+}
+
+/* Fim Seçao 3 */
 
