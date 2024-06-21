@@ -71,7 +71,7 @@
 /* Inicio Seçao 2 */
 
 .secao-2 {
-    height: 800px;
+    height: 900px;
     width: 100%;
     background-color: rgb(243, 239, 239);
 }
@@ -136,7 +136,6 @@
     gap: 50px; /* Espaçamento entre os blocos */
     padding: 0px; /* Espaçamento interno do container */
     height: 1200px;
-        margin-bottom: 50px;
 }
 
 
@@ -200,4 +199,167 @@
 }
 
 /* Fim Seçao 3 */
+
+/* Inicio Seção 4 */
+
+.contato {
+    height: 800px;
+    background-color: rgb(243, 239, 239);
+    margin-top: -23px;
+}
+
+.contato .tel h1 {
+    font-family: poppins;
+    font-size: 35px;
+    padding-top: 120px;
+    width: 50%;
+    padding-left: 280px;
+    color: #022135;
+    text-transform: uppercase;
+}
+
+.contato h2 {
+    padding-left: 280px;
+    font-family: poppins;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #022135;
+}
+
+.contato .tel p {
+    font-family: poppins;
+    width: 50%;
+    padding-left: 280px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    font-size: 17px;
+}
+
+.contato img {
+    height: 600px;
+    float: right;
+    margin-right: 380px;
+    margin-top: -470px;
+    box-shadow: 0px 0px 10px 2px #022135;
+    border-radius: 10px;
+}
+
+.contato .fa-solid {
+    color: #022135;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.contato .botao {
+    font-family: poppins;
+    border: none;
+    margin-left: 280px;
+    background-color: #022135;
+    padding: 23px 23px 23px 23px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.contato .botao:hover {
+    color: #022135;
+    background-color: #deaf77;
+    transition: 0.5s ease;
+}
+
+/* Fim Seçao 4 */
+
+/* Inicio Seçao 5 */
+
+.local {
+    height: 800px;
+    background-color: #022135;
+}
+
+.local h2 {
+    padding-top: 70px;
+    color: white;
+    text-align: center;
+    font-family: poppins;
+    text-transform: uppercase;
+}
+
+.mapa iframe {
+    width: 100%;
+    height: 550px;
+    padding-top: 70px;
+}
+
+/* Fim Seção 5 */
+
+/* inicio Seção 6 */
+
+.mapa-site {
+    height: 480px;
+    background-color: rgb(243, 239, 239);
+    color: #022135;
+    display: flex;
+    gap: 10px;
+    
+}
+
+.mapa-site h3 {
+    font-family: poppins;
+    text-transform: uppercase;
+    font-size: 28px;
+    padding: 10px;
+    margin-top: 110px;
+    font-weight: normal;
+}
+
+.mapa-site ul {
+    list-style-type: none;
+}
+
+.mapa-site li {
+    padding: 10px;
+    font-family: poppins;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.ms1, .ms2, .ms3, .ms4 {
+    flex-basis: calc(20% - 10px); /* Colunas 50% com margem entre elas */
+    padding-left: 50px;
+    margin-left: 50px;
+}
+
+.ms4 {
+    margin-top: 120px;
+}
+
+.ms4 i {
+    font-size: 25px;
+    padding: 20px;
+}
+
+/* Fim Seção 6 */
+
+/* Inicio Seçao 7 */
+
+.footer {
+    height: 50px;
+    background-color: #333;
+    color: white;
+    font-family: poppins;
+    padding: 10px;
+}
+
+.footer .p1 {
+    float: left;
+    margin-left: 20%;
+}
+
+.footer .p2 {
+    margin-left: 50%;
+}
+
+/* Fim Seção 7 */
 
