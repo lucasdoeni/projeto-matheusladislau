@@ -302,7 +302,11 @@
     color: #022135;
     display: flex;
     gap: 10px;
-    
+}
+
+.mapa-site a {
+    text-decoration: none;
+    color: #022135;
 }
 
 .mapa-site h3 {
