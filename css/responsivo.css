@@ -10,3 +10,58 @@
     
 	
 }
+
+@media only screen and (max-width: 1760px) and (min-width: 1200px){
+    .menu a {
+        color: red;
+    }
+
+    /* Seçao 1 */
+
+    .secao-1 .menu a {
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .secao-1 .logo2 {
+        margin-left: 0px;
+    }
+
+    .secao-1 .defesa {
+        margin-left: 35px;
+    }
+
+    /* Secao 2 */
+
+    .escritorio .matheus1 img{
+        
+        min-width: 20%;
+        margin-left: 50px;
+        box-shadow: 30px 30px 0px 10px #022135;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .escritorio p {
+        font-size: 20px;
+        margin-right: 50px;
+        margin-left: 505px;
+    }
+
+    .escritorio h1 {
+        margin-left: 505px;
+    }
+
+    /* Secao 3 */
+
+    .secao-3 {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .bloco1, .bloco2, .bloco3, .bloco4 {
+        margin: auto;
+    }
+}
+    
