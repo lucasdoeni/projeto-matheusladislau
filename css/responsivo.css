@@ -11,9 +11,10 @@
 	
 }
 
-@media only screen and (max-width: 1760px) and (min-width: 1200px){
+@media only screen and (max-width: 1605px) and (min-width: 1200px){
     .menu a {
-        color: red;
+        padding-right: 5px;
+        padding-left: 5px;
     }
 
     /* Seçao 1 */
@@ -25,6 +26,7 @@
     }
 
     .secao-1 .logo2 {
+        
         margin-left: 0px;
     }
 
@@ -77,14 +79,43 @@
     /* Secao 4 */
 
     .tel {
-        border: 2px solid orange;
-        width: 50%;
+        width: 55%;
         padding-left: 0px;
         height: 800px;
     }
 
-    .img3 {
-        display: ;
+    .tel h1 {
+        margin-left: -220px;
+        white-space: nowrap;
     }
+
+    .tel p, h2, .botao2 {
+        margin-left: -220px;
+    }
+
+    .botao2 {
+        margin-top: -250px;
+    }
+
+    .contato img {
+        margin-top: -690px;
+        margin-right: 150px;
+    }
+
+    /* Secao 5 */
+
+    .local {
+        height: 570px;
+    }
+
+    .local h2 {
+        padding: 20px 0px 20px 200px;
+    }
+
+    .mapa iframe {
+        height: 400px;
+        padding: 10px 80px 0px 80px;
+    }
+
 }
     

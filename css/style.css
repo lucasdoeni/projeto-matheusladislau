@@ -242,25 +242,23 @@
     font-size: 17px;
 }
 
-.container img {
-    margin-right: -50px;
+.contato img {
     margin-top: -340px;
-    display: flex;
-    float: right;
     height: 600px;
     box-shadow: 0px 0px 10px 2px #022135;
     border-radius: 10px;
+    float: right;
+    margin-right: 280px;
 }
 
 .contato .fa-solid {
     color: #022135;
     padding-right: 20px;
     padding-top: 10px;
-    
 }
 
 .botao2 {
-    margin-top: -150px;
+    margin-top: 80px;
 }
 
 .contato .botao {
