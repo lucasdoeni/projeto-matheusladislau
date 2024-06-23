@@ -340,6 +340,11 @@
     font-size: 15px;
 }
 
+.mapa-site li a:hover {
+    color: #deaf77;
+    transition: 0.5s;
+}
+
 .ms1, .ms2, .ms3, .ms4 {
     flex-basis: calc(20% - 10px); /* Colunas 50% com margem entre elas */
     padding-left: 50px;
@@ -354,6 +359,11 @@
 .ms4 i {
     font-size: 25px;
     padding: 20px;
+}
+
+.ms4 a:hover {
+    color: #deaf77;
+    transition: 0.5s;
 }
 
 /* Fim Seção 6 */
@@ -375,6 +385,16 @@
 
 .footer .p2 {
     margin-left: 50%;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    color: #deaf77;
+    transition: 0.5s;
 }
 
 /* Fim Seção 7 */
