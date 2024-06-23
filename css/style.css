@@ -211,7 +211,7 @@
 /* Inicio Seção 4 */
 
 .contato {
-    height: 800px;
+    height: 850px;
     background-color: rgb(243, 239, 239);
     margin-top: -23px;
 }
@@ -230,24 +230,24 @@
     padding-left: 280px;
     font-family: poppins;
     font-size: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: #022135;
 }
 
 .contato .tel p {
     font-family: poppins;
-    width: 50%;
     padding-left: 280px;
     margin-top: 10px;
     margin-bottom: 80px;
     font-size: 17px;
 }
 
-.contato img {
-    height: 600px;
+.container img {
+    margin-right: -50px;
+    margin-top: -340px;
+    display: flex;
     float: right;
-    margin-right: 380px;
-    margin-top: -470px;
+    height: 600px;
     box-shadow: 0px 0px 10px 2px #022135;
     border-radius: 10px;
 }
@@ -256,19 +256,23 @@
     color: #022135;
     padding-right: 20px;
     padding-top: 10px;
+    
+}
+
+.botao2 {
+    margin-top: -150px;
 }
 
 .contato .botao {
     font-family: poppins;
     border: none;
-    margin-left: 280px;
+    margin-left: 420px;
     background-color: #022135;
     padding: 23px 23px 23px 23px;
     color: white;
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 10px;
-    margin-top: 25px;
 }
 
 .contato .botao:hover {
@@ -276,6 +280,7 @@
     background-color: #deaf77;
     transition: 0.5s ease;
 }
+
 
 /* Fim Seçao 4 */
 

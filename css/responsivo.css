@@ -56,12 +56,35 @@
     /* Secao 3 */
 
     .secao-3 {
+        height: 1350px;
         padding-right: 50px;
         padding-left: 50px;
     }
 
     .bloco1, .bloco2, .bloco3, .bloco4 {
         margin: auto;
+    }
+
+    .bloco3, .bloco4 {
+        margin-top: -100px;
+    }
+
+    .secao-3-h1 {
+        height: 50px;
+        margin-bottom: -80px;
+    }
+
+    /* Secao 4 */
+
+    .tel {
+        border: 2px solid orange;
+        width: 50%;
+        padding-left: 0px;
+        height: 800px;
+    }
+
+    .img3 {
+        display: ;
     }
 }
     
