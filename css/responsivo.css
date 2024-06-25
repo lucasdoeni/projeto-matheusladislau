@@ -180,6 +180,11 @@
         color: white;
         font-size: 25px;
         margin-bottom: 25px;
+        text-transform: uppercase;
+    }
+
+    .secao-3-mobile .bloco1-mobile h3 {
+        white-space: nowrap;
     }
 
     .secao-3-mobile .bloco1-mobile, .bloco2-mobile, .bloco3-mobile, .bloco4-mobile {
