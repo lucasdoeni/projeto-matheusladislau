@@ -1,6 +1,6 @@
 /* Geral */
 
-@media screen and (min-width: 960px) and (max-width:1980px) { 
+@media screen and (min-width: 1199px) and (max-width:1980px) { 
     .menu-mobile {
         display: none;
     }
@@ -12,12 +12,33 @@
     .escritorio-mobile {
         display: none;
     }
+
+    .secao-3-mobile, .secao-3-h1-mobile {
+        display: none;
+    }
+
+    .contato-mobile {
+        display: none;
+    }
     
+    .mapa-site-mobile {
+        display: none;
+    }
+
+    .selo-mobile {
+        display: none;
+    }
+
 }
 
 /* Tablet -iPad Mini */
 
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
     .menu {
         display: none;
     }
@@ -67,23 +88,35 @@
 
     /* Seçao 2 */
 
-    .secao-2 {
-        height: 1200px;
+    .selo {
+        display: none;
     }
 
-    .selo img {
-        margin-left: 300px;
+    .selo-mobile img {
+        height: 180px;
+        margin-top: -85px;
+        padding-left: 42%;
+        padding-right: 38%;
+    }
+
+    .secao-2 {
+        height: 1080px;
     }
 
     .escritorio {
         display: none;
     }
 
-    .escritorio-mobile img {
+    .escritorio-mobile .matheus2 img {
         height: 400px;
-        margin: 100px 216px 30px 216px;
         border-radius: 30px 30px 30px 30px;
         box-shadow: 20px 20px 10px -5px #022135;
+        margin: 0px 33% 0px 33%;
+    }
+
+    .escritorio-mobile .matheus2 {
+        position: relative;
+        margin-top: 70px;
     }
 
     .escritorio-mobile h1 {
@@ -106,6 +139,250 @@
         text-align: justify;
         margin-top: -80px;
         text-indent: 40px;
+    }
+
+    /* Seçao 3 */
+
+    .secao-3 {
+        display: none;
+    }
+
+    .secao-3-mobile {
+        background-color: #022135;
+        height: 2550px;
+    }
+
+    .secao-3-mobile li {
+        font-family: poppins;
+        color: white;
+        list-style-type: none;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .secao-3-mobile h3 {
+        font-family: poppins;
+        color: white;
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    .secao-3-mobile .bloco1-mobile, .bloco2-mobile, .bloco3-mobile, .bloco4-mobile {
+        background-color: #305f7b;
+        padding: 20px 50px 300px 50px;
+        height: 550px;
+        width: 400px;
+        margin: auto;
+        box-shadow: 12px 12px 0px 1px #deb077b0;
+        margin-bottom: 80px;
+        border-radius: 10px;
+    }
+
+    .secao-3-mobile .fa-solid {
+        width: 100%;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .bloco4-mobile {
+        font-family: poppins;
+        color: white;
+        font-size: 15px;
+    }
+
+    /* Seçao 4 */
+
+    .contato {
+        display: none;
+    }
+
+    .contato-mobile {
+        height: 580px;
+        background-color: rgb(243, 239, 239);
+        margin-top: -20px;
+    }
+
+    .contato-mobile img {
+        height: 300px;
+        float: right;
+        margin-right: 50px;
+        margin-top: 130px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 8px 1px #022135;
+    }
+
+    .contato-mobile .tel h1 {
+        padding-top: 80px;
+        margin-left: 50px;
+        font-family: poppins;
+        color: #022135;
+        width: 3%;
+        border-bottom: 5px solid #022135;
+        white-space: nowrap;
+    }
+
+    .contato-mobile .tel p {
+        font-family: poppins;
+        color: #022135;
+        width: 56%;
+        margin-left: 50px;
+        margin-bottom: 40px;
+    }
+
+    .contato-mobile .fa-solid {
+        margin-left: 50px;
+        font-size: 28px;
+    }
+
+    .contato-mobile i {
+        margin-right: 20px;
+        
+    }
+
+    .botao2 {
+        width: 30%;
+        white-space: nowrap;
+        margin-top: 40px;
+    }
+    
+    .contato-mobile .botao {
+        font-family: poppins;
+        border: none;
+        background-color: #022135;
+        padding: 20px 20px 20px 20px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        border-radius: 50px;
+        margin-left: 130px;
+    }
+
+    .contato-mobile .botao:hover {
+        background-color: #deaf77;
+        transition: 0.2s;
+        color: #022135;
+    }
+
+    /* Seçao 5 */
+
+    .local {
+        height: 630px;
+    }
+
+    .local h2 {
+        padding: 20px 0px 20px 0px;
+    }
+
+    .local .mapa {
+        margin-top: -70px;
+        padding: 0px 50px 0px 50px;
+    }
+
+    /* Seçao 6 */
+
+    .mapa-site {
+        display: none;
+    }
+
+    .mapa-site-mobile {
+        background-color: rgb(243, 239, 239);
+        color: #022135;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+        padding: 5px;
+        height: 350px;
+    }
+
+    .mapa-site-mobile h3 {
+        font-family: poppins;
+        color: #022135;
+        margin-top: 50px;
+        font-size: 22px;
+        white-space: nowrap;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    .mapa-site-mobile ul {
+        margin: auto;
+    }
+
+
+    .mapa-site-mobile li {
+        list-style-type: none;
+        padding: 6px 0px 6px 0px;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+    .mapa-site-mobile li a {
+        text-decoration: none;
+        color: #022135;
+    }
+
+    .mapa-site-mobile .ms1, .ms2, .ms3 {
+        margin-left: 0px;
+        padding-left: 10px;
+    }
+
+    .mapa-site-mobile .ms1 li a:hover {
+        color: #deaf77;
+        transition: 0.2s;
+    }
+
+    .mapa-site-mobile .ms2 li a:hover {
+        color: #deaf77;
+        transition: 0.2s;
+    }
+
+
+    .mapa-site-mobile .ms1 {
+        width: 50%;
+        margin-left: 25px;
+    }
+
+    .mapa-site-mobile .ms2 {
+        margin-left: -20px;
+    }
+
+    .mapa-site-mobile .ms3 h3 {
+        font-size: 22px;
+    }
+
+    .mapa-site-mobile .ms3 li {
+        font-size: 13px;
+        margin-right: 25px;
+    }
+
+    .mapa-site-mobile .ms4  {
+        padding: 0px 0px 0px 0px;
+        margin-top: 10px;
+        text-align: center;
+        width: 277%;
+        
+    }
+
+    .mapa-site-mobile .ms4 .fa-brands {
+        margin-top: 20px;
+        font-size: 30px;
+        color: #022135;
+    }
+
+    .mapa-site-mobile .ms4 .fa-brands:hover {
+        color: #deaf77;
+        transition: 0.2s;
+    }
+
+    /* Footer */
+
+    .footer {
+        font-size: 15px;
+    }
+
+    .footer .p1 {
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
 }
