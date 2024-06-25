@@ -351,6 +351,10 @@
     margin-left: 50px;
 }
 
+.ms1, .ms2 {
+    white-space: nowrap;
+}
+
 .ms4 {
     margin-top: 120px;
     margin-bottom: 280px;

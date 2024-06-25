@@ -234,6 +234,7 @@
         width: 3%;
         border-bottom: 5px solid #022135;
         white-space: nowrap;
+        text-transform: uppercase;
     }
 
     .contato-mobile .tel p {
