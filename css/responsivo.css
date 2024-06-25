@@ -1,6 +1,6 @@
 /* Geral */
 
-@media screen and (min-width: 1199px) and (max-width:1980px) { 
+@media screen and (min-width: 1199px) and (max-width:2600px) { 
     .menu-mobile {
         display: none;
     }
@@ -29,6 +29,10 @@
         display: none;
     }
 
+    .matheus2 {
+        display: none;
+    }
+
 }
 
 /* Tablet -iPad Mini */
@@ -37,6 +41,13 @@
     * {
         margin: 0px;
         padding: 0px;
+        
+    }
+
+    /* Seçao 1 */
+
+    .secao-1 {
+        margin-bottom: -20px;
     }
 
     .menu {
@@ -92,31 +103,35 @@
         display: none;
     }
 
-    .selo-mobile img {
-        height: 180px;
-        margin-top: -85px;
-        padding-left: 42%;
-        padding-right: 38%;
-    }
-
-    .secao-2 {
-        height: 1080px;
-    }
-
     .escritorio {
         display: none;
     }
 
-    .escritorio-mobile .matheus2 img {
+    .secao-2 {
+        height: 1140px;
+    }
+
+    .selo-mobile {
+        display: grid;
+    }
+
+    .selo-mobile img {
+        height: 180px;
+        margin: auto;
+        margin-top: -90px;
+    }
+
+    .matheus2 {
+        padding-top: 110px;
+        width: 100%;
+        display: grid;
+    }
+
+    .matheus2 img {
         height: 400px;
         border-radius: 30px 30px 30px 30px;
         box-shadow: 20px 20px 10px -5px #022135;
-        margin: 0px 33% 0px 33%;
-    }
-
-    .escritorio-mobile .matheus2 {
-        position: relative;
-        margin-top: 70px;
+        margin: auto;
     }
 
     .escritorio-mobile h1 {
