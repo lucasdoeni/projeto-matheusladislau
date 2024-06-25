@@ -78,6 +78,7 @@
         margin-left: 250px;
         margin-bottom: -50px;
         margin-top: 20px; 
+        
     }
 
     .defesa {
@@ -96,6 +97,7 @@
         box-shadow: 5px 5px 0px 0px rgba(255, 255, 255, 0.486);
         margin-left: 90px;
         margin-right: 90px;
+        
     }
 
     /* Seçao 2 */
@@ -409,11 +411,10 @@
 
 }
 
-/*Tablet 2*/
-
-@media only screen and (max-width: 1199px) {
-    
-	
+@media only screen and (min-width: 431px) and (max-width:767px){
+    * {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 1680px) and (min-width: 1200px) {
@@ -524,4 +525,175 @@
         padding: 10px 80px 0px 80px;
     }
 
+}
+
+/* Smartphone - iPhone 14 Pro Max */
+
+@media only screen and (max-width: 430px) and ( min-width: 320px) {
+
+    /* Seção 1 */
+    .secao-1 .logo2, .menu {
+        display: none;
+    }
+
+    .header .menu-mobile {
+        float: right;
+        margin-top: -82px;
+        margin-right: 8px;
+    }
+
+    .logo2 {
+        display: none;
+    }
+
+    .logo-mobile img {
+        height: 50px;
+        margin-bottom: -50px;
+        margin-top: 15px; 
+        margin-left: 8px;
+    }
+
+    .menu-mobile .fa-solid {
+        color: white;
+    }
+
+    .menu-mobile .fa-solid:hover {
+        color: #deaf77;
+        transition: 0.5s;
+    }
+
+    .defesa {
+        all: unset;
+        font-family: poppins;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .defesa h1 {
+        font-size: 20px;
+        margin-top: -450px;
+        background-color: #022135;
+        border-radius: 30px 0px 30px 0px;
+        box-shadow: 5px 5px 0px 0px rgba(255, 255, 255, 0.486);
+        margin-left: 25px;
+        margin-right: 30px;
+    }
+
+    /* Seção 2 */
+
+    .selo {
+        display: none;
+    }
+
+    .escritorio {
+        display: none;
+    }
+
+    .secao-2 {
+        height: 1300px;
+    }
+
+    .selo-mobile {
+        display: grid;
+    }
+
+    .selo-mobile img {
+        height: 180px;
+        margin: auto;
+        margin-top: -90px;
+    }
+
+    .matheus2 {
+        padding-top: 80px;
+        width: 100%;
+        display: grid;
+    }
+
+    .matheus2 img {
+        height: 320px;
+        border-radius: 30px 30px 30px 30px;
+        box-shadow: 20px 20px 10px -5px #022135;
+        margin: auto;
+    }
+
+    .escritorio-mobile h1 {
+        color: #022135;
+        font-family: poppins;
+        font-size: 28px;
+        text-transform: uppercase;
+        white-space: nowrap;
+        border-bottom: 5px solid #022135;
+        width: 3%;
+        margin-left: 50px;
+        margin-bottom: 40px;
+        margin-top: 60px;
+    }
+
+    .escritorio-mobile p {
+        font-family: poppins;
+        font-size: 15px;
+        padding: 0px 20px 10px 20px;
+        text-align: justify;
+        text-indent: 40px;
+    }
+
+    /* Seção 3 */
+
+	.secao-3 {
+        display: none;
+    }
+
+    .secao-3-mobile {
+        background-color: #022135;
+        height: 2760px;
+    }
+
+    .secao-3-mobile li {
+        font-family: poppins;
+        color: white;
+        list-style-type: none;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .secao-3-mobile h3 {
+        font-family: poppins;
+        color: white;
+        font-size: 25px;
+        margin-bottom: 25px;
+        text-transform: uppercase;
+    }
+
+    
+
+    .secao-3-mobile .bloco1-mobile, .bloco2-mobile, .bloco3-mobile, .bloco4-mobile {
+        background-color: #305f7b;
+        padding: 20px 20px 50px 20px;
+        height: 600px;
+        width: 270px;
+        margin: auto;
+        box-shadow: 12px 12px 0px 1px #deb077b0;
+        margin-bottom: 80px;
+        border-radius: 10px;
+        
+    }
+
+    .secao-3-mobile .fa-solid {
+        width: 100%;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .bloco4-mobile {
+        font-family: poppins;
+        color: white;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 319px) {
+    * {
+        display: none;
+    }
 }
