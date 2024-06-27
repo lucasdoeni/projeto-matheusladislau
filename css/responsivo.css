@@ -640,9 +640,10 @@
     .escritorio-mobile p {
         font-family: poppins;
         font-size: 15px;
-        padding: 50px;
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-bottom: 20px;
         text-align: justify;
-        margin-top: -80px;
         text-indent: 40px;
     }
 
@@ -673,9 +674,7 @@
         text-transform: uppercase;
     }
 
-    .secao-3-mobile .bloco1-mobile h3 {
-        white-space: nowrap;
-    }
+
 
     .secao-3-mobile .bloco1-mobile, .bloco2-mobile, .bloco3-mobile, .bloco4-mobile {
         background-color: #305f7b;
@@ -893,7 +892,7 @@
 
 /* Smartphone - iPhone 14 Pro Max |430x932| */ 
 
-@media only screen and (max-width: 600px) and ( min-width: 320px) {
+@media only screen and (max-width: 599px) and ( min-width: 320px) {
 
     /* Seção 1 */
     .secao-1 .logo2, .menu {
